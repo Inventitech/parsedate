@@ -37,7 +37,7 @@ test_that("White-space string is replaced by NAs", {
 test_that("White-spaces are gracefully removed", {
 
   date <- " 22.2.2222   "
-  expected <- parse_date("22.2.2222")
+  expected <- parse_date("23.2.2222")
   actual <- c(parse_date(date))
 
   expect_equal(expected, actual)
