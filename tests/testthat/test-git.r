@@ -15,7 +15,7 @@ test_that("Filling in is correct", {
 
 test_that("Issue #3 is resolved", {
 
-  d1 <- parse_date("070809")
+  d1 <- parse_date("080809")
   d2 <- parse_date("07-08-09")
   expect_equal(d1, d2)
 
